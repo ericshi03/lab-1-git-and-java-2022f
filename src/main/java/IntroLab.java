@@ -33,6 +33,9 @@ public class IntroLab {
         return message_to_print + message;
     }
 
+    /*
+     * Bonan's method
+     */
     public static String luanbo2(){
         return printLabMessage("Hello", "Bonan", false, "Bark");
     }
