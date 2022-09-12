@@ -40,6 +40,11 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String sachd154() {
+        // Calls printLabMessage with parameters pertaining to me, Gurman
+        return printLabMessage("Hey", "Gurman", false,
+                "I also like cats more than dogs! Contradiction! QED.");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -52,6 +57,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(sachd154());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
