@@ -49,9 +49,15 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String alberofo() {
+        return printLabMessage("Hi", "Angel Albero Forte", false,
+                "How are you doing.");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(alberofo());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
