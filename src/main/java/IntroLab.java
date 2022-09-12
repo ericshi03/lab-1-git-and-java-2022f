@@ -40,6 +40,13 @@ public class IntroLab {
         return printLabMessage("Hello", "Bonan", false, "Bark");
     }
 
+    public static String liujef11(){
+        return printLabMessage("hi","jeff",true,"no");
+    }
+    public static String shieric3() {
+        return printLabMessage("Hey", "Eric Shi", true, "God I love Java.");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -51,8 +58,9 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
         System.out.println(luanbo2());
+        System.out.println(liujef11());
+        System.out.println(shieric3());
 
 
     }
