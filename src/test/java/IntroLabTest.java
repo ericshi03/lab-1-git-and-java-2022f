@@ -25,6 +25,13 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test(timeout = 1000)
+    public void testGuoandy4() {
+        String expected = "Howdy! My name is Andy Guo! I like cats more than dogs! Welcome to CSC207!!";
+        String actual = IntroLab.exampleStudent();
+        assertEquals(expected, actual);
+    }
+
 
     @Test(timeout = 10)
     public void test_luanbo2(){
@@ -47,4 +54,5 @@ public class IntroLabTest {
         String actual = IntroLab.shieric3();
         assertEquals(expected, actual);
     }
+
 }

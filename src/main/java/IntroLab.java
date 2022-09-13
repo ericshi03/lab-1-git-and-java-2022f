@@ -36,6 +36,11 @@ public class IntroLab {
     /*
      * Bonan's method
      */
+
+    public static String guoandy4() {
+        return printLabMessage("Howdy", "Andy Guo", true,
+                "Welcome to CSC207!!");
+}
     public static String luanbo2(){
         return printLabMessage("Hello", "Bonan", false, "Bark");
     }
@@ -45,6 +50,7 @@ public class IntroLab {
     }
     public static String shieric3() {
         return printLabMessage("Hey", "Eric Shi", true, "God I love Java.");
+
     }
 
     /**
@@ -58,9 +64,13 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+
+        System.out.println(guoandy4());
+
         System.out.println(luanbo2());
         System.out.println(liujef11());
         System.out.println(shieric3());
+
 
 
     }
